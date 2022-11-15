@@ -16,11 +16,11 @@
  - 第七層 應用層
   - 應用層（Application Layer）提供為應用軟體而設計的介面，以設定與另一應用軟體之間的通訊。
 (2) 底下網路設備運作在哪一層? Hub, switch, router, L4-switch, proxy
- - Hub在第一層實體層
- - switch在第三層網路層
- - router在第三層網路層
- - L4-switch在第四層傳輸層
- - proxy在第七層應用層
+ - Hub在第一層
+ - switch在第二層
+ - router在第三層
+ - L4-switch在第四層
+ - proxy在第七層
 (3) TCP/IP有那些層?寫出與OSI七層模型的對應
  - 1.Application Layer（應用層）
  - 2.Transport Layer（傳輸層）

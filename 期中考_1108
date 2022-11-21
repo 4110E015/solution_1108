@@ -124,6 +124,6 @@ TCP syn flood attack
  - 透過重複傳送初始連線要求 (SYN) 封包
 (6) 簡述底下網路層協定(英文全名與簡單功能說明): IP ICMP
  -IP
-  -IP位址（英語：IP Address，全稱Internet Protocol Address），又譯為網際協定位址、網際網路協定位址。
+  -IP位址（英語：IP Address，全稱Internet Protocol Address），一種應用於網際網路的電腦網路協定。
  -ICMP
-  -網際網路控制訊息協定（英語：Internet Control Message Protocol，縮寫：ICMP）是網際網路協定套組的核心協定之一。
+  -網際網路控制訊息協定（英語：Internet Control Message Protocol，縮寫：ICMP）它用於網際網路協定（IP）中傳送控制訊息，提供可能發生在通訊環境中的各種問題回饋。

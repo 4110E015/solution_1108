@@ -107,8 +107,21 @@
  -UDP
   -使用者資料包協定（英語：User Datagram Protocol，縮寫：UDP；又稱使用者資料包協定）是一個簡單的面向資料包的通信協定。
 reliable(可靠的) vs unreliable(不可靠的)
+ -reliable
+  - 通過傳輸層協議提供主機到主機的通信。協議 TCP 和 UDP 決定了可靠性。
+ -unreliable
+  - 使用者資料封包通訊協定 (UDP) 是一種無連線，因而不可靠的傳輸通訊協定
 TCP three-way handshaking(三項交握)
+ - SYN (Synchronize sequence numbers)
+ - ACK (Acknowledgment field significant)
+ - Sequence Number (序列號)
+ - Acknowledgment Number (確認號)
 TCP syn flood attack
+ - SYN 洪水攻擊
+ - 是一種阻斷服務 (DDoS) 攻擊
+ - 旨在透過消耗所有可用的伺服器資源
+ - 使伺服器無法用於合法流量
+ - 透過重複傳送初始連線要求 (SYN) 封包
 (6) 簡述底下網路層協定(英文全名與簡單功能說明): IP ICMP
  -IP
   -IP位址（英語：IP Address，全稱Internet Protocol Address），又譯為網際協定位址、網際網路協定位址。
